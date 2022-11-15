@@ -1,14 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@page contentType="text/html; charset=EUC-KR"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Main Page</title>
 </head>
 <body>
 
-<a href='start.do'>ì‹œìž‘</a>
+		<h1>°Ô½ÃÆÇ ÇÁ·Î±×·¥</h1>
+		<hr>
+		<br> <a href="insertBoard.do">ÀÔ·ÂÇÏ±â ¹Ù·Î°¡±â</a>
+		<br> <a href="getBoardList.do">±Û ¸ñ·Ï ¹Ù·Î°¡±â</a>
+		<hr>
+		<br>
 
 </body>
 </html>
